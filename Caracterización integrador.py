@@ -5,6 +5,12 @@ Created on Mon Sep 13 11:56:51 2021
 @author: Luca y Maia
 """
 
+import pyvisa as visa
+import time
+import numpy as np
+from matplotlib import pyplot as plt
+import pandas as pd
+
 #Para caracterizar el integrador, fijar un pulso cuadrado en el GF de 50 Hz y 4 Vrms.
 
 osci.write('DAT:SOU CH1' )
